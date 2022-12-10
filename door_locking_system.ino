@@ -100,7 +100,7 @@ lcd.println(" ");
 lcd.setCursor(13,1);
 lcd.println(" ");
 
-for(pos = 180; pos>=0; pos-=5) // open the door
+for(pos = 180; pos>=0; pos-=5) // open the door 
 {
 myservo.write(pos); 
 delay(5); 
